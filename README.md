@@ -18,3 +18,8 @@ Run-SCCM-FromServer.ps1
 ```
 powershell -ExecutionPolicy Bypass -File "C:\Temp\run-sccm-cycles\Run-SCCM-FromServer.ps1"
 ```
+
+По какой-то причине на 20% устройствах не стартует служба устнановки установщика. Бонусом скрипт, который запускает службу по списку из того же файла.
+```
+powershell -ExecutionPolicy Bypass -File "C:\Temp\run-sccm-cycles\Start-MSI-Service.ps1"
+```
