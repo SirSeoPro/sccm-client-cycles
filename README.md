@@ -14,3 +14,7 @@ powershell -ExecutionPolicy Bypass -File "C:\temp\Run-All-SCCM-Cycles.ps1"
 ```
 Run-SCCM-FromServer.ps1
 ```
+Запускается с клиента, командой: 
+```
+powershell -ExecutionPolicy Bypass -File "C:\Temp\run-sccm-cycles\Run-SCCM-FromServer.ps1"
+```
